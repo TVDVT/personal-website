@@ -1,8 +1,10 @@
 .header {
     display:flex;
     gap: 30px;
+    margin:10px;
 }
 
+.he{margin:10px}
 .nav {
     display:flex;
     gap:20px;
