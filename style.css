@@ -8,7 +8,7 @@
 .nav {
     display:flex;
     gap:20px;
-    background-color: rgba(255, 255, 0, 0.304);
+    background-color: rgba(255, 217, 0, 0.34);
     padding: 20px;
     border-radius: 5px;
     border: solid grey;
@@ -26,4 +26,46 @@ body {
     padding: 0 0 10px 20px;
     margin: 10px;
 }
+
+.grid {
+    display:grid;
+    grid-template-areas: "a b c";
+    gap:10px;
+    width:90%;
+    justify-content: space-between;
+}
+
+.box {
+    display:flex;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    border:solid gold 3px;
+    border-radius: 16px;
+    gap: 20px;
+    width:100px;
+    height:100px;
+    height:auto
+}
+
+.first {
+    grid-area: a;
+}
+
+.second {
+    grid-area: b;
+}
+
+.third {
+    grid-area: c;
+}
+
+.box img {
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
 
